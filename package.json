@@ -1,10 +1,11 @@
 {
-  "homepage": "https://jsyka.github.io/Portfolio-Website/",
+  "homepage": "https://jsyka.github.io/Personal-Website/",
   "name": "basic-website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy" : "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",

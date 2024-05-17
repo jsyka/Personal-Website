@@ -20,7 +20,7 @@ const Navbar = ({ theme, setTheme }) => {
       />
       <ul>
         <li>
-          <Link to='/Portfolio-Website' className='nav-text'>home</Link>
+          <Link to='/Personal-Website' className='nav-text'>home</Link>
         </li>
         <li>
           <Link to='/about' className='nav-text'>about</Link>
