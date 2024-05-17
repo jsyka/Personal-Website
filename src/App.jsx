@@ -19,7 +19,7 @@ const App = () => {
     <div className={`container ${theme}`}>
       <Navbar theme={theme} setTheme={setTheme} />
       <Routes className='contents'>
-        <Route path="/" element={<Home theme={theme} setTheme={setTheme} />} />
+        <Route path="/Portfolio-Website" element={<Home theme={theme} setTheme={setTheme} />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/resume" element={<Resume />} />
