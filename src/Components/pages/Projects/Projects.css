@@ -1,0 +1,78 @@
+body {
+    color:#1943b7;
+    /* background-image: url(./Project-assets/gradient.png); */
+}
+
+.dark body{
+    color: white;
+}
+.title{
+    position: absolute;
+    left: 25%;
+    top: 20%;
+}
+
+.project-container{
+    width:25%;
+    align-items: center;
+    position:absolute;
+    left: 30%;
+    top: 20%;
+    padding: 15px;
+}
+
+.bluem{
+    width:300px;
+    animation: fade-in 0.2s;
+}
+.bluem:hover{
+    width:350px;
+}
+.bite{
+    width: 300px;
+    animation: fade-in 0.2s;
+}
+.bite:hover{
+    width:350px;
+}
+.robo{
+    width:300px;
+}
+.jakt{
+    width:300px;
+}
+
+.window{
+    width:400px;
+    position:absolute;
+    top:20%;
+    left:100%;
+    padding: 5%;
+    color: #000;
+    animation: fade-up 0.2s;
+    border: 0px solid;
+    border-color:aliceblue;
+    border-radius: 3%;
+    /* background-image: url(./Project-assets/gradient.png); */
+}
+.window-img{
+    width: 350px;
+    border-radius: 3px;
+}
+.bg{
+  position: absolute;
+  top:10%;
+  animation:
+    blinking 3s infinite;
+    z-index: 0;
+}
+
+@keyframes pan{
+    0% {opacity:0; 
+      transform: translateX(100%);
+    }
+    50% {opacity:1;}
+    100% {opacity:0;
+      transform: translateX(0px);
+    }
+}

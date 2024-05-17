@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'TitleFont', sans-serif;
+
+}
+
+.body{
+  background-image: url(./assets/gradient-bg.jpg);
+}
+
+
+@font-face {
+  font-family: 'TitleFont';
+  src: url(
+'C:\Users\jessi\Documents\coding\w\Basic Website\src\assets\Fonts\typewcond_regular.otf'  ) 
+    format('truetype');
+}
+
+.container{
+  max-width: 1920px;
+  transition: 0.5s;
+  background-image: url(./assets/gradient-bg.jpg);
+}
+.container.dark{
+  background: #1c2a48;
+}
+.contents{
+  z-index: 0;
+}
+
+
+@keyframes pan{
+  0% {opacity:0; 
+    transform: translateX(100%);
+  }
+  50% {opacity:1;}
+  100% {opacity:0;
+    transform: translateX(0px);
+  }
+}

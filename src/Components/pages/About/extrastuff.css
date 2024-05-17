@@ -1,0 +1,40 @@
+.icon-container{
+    width:100%;
+    height:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: '';
+}
+.icons{
+    width: 250px;
+}
+.icons:hover {
+    transform: rotate(15deg);
+}
+.info{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wind{
+    width: 400px;
+    position:absolute;
+    left:1vw;
+}
+.blurb{
+    width: 400px;
+    height: 300px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 37px;
+    position:relative;
+    position: absolute;
+    top: -17vw;
+    left: 30vw;
+    z-index: 1000 !important;
+    border: 2px solid;
+}

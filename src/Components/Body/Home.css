@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'TitleFont', sans-serif;
+  }
+
+.container{
+    max-width: 1920px;
+    min-height: 100vh;
+    background: #fff;
+    transition: 0.5s;
+}
+
+.body.dark{
+  background: #1c2a48;
+}
+
+.body-text{
+  height: 50px;
+  text-align: left;
+  padding: 1px;
+  position: absolute;
+  top: 30%;
+  left: 60%;
+  color:#1943b7;
+  animation: fade-down 0.6s;
+}
+.dark .body-text{
+  color: #fff;
+}
+
+.message{
+  border-right: 2px solid;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation:
+    typing 4s steps(41),
+    cursor .4s step-end infinite alternate;
+}
+@keyframes cursor{
+  50% { border-color: transparent }
+}
+@keyframes typing{
+  from { width: 0 }
+}
+
+h1, h2{
+  font-weight: normal;
+}
+
+.socials{
+  padding: 5%;
+  width: 100%;
+  height: 10%;
+  border-radius:0%;
+  animation: fade-up 0.9s;
+}
+.link-icon{
+  width:40px;
+  margin-right: 20px;
+}
+.link-icon:hover{
+  transform: rotate(15deg)
+}
+.bottom-text{
+  position: absolute;
+  top:92%;
+  left: 10%;
+  color:#1943b7
+}
+.dark .bottom-text{
+  color: #fff;
+}
+.bg{
+  animation:
+    blinking 3s infinite;
+    z-index: 0;
+}
+
+@keyframes blinking{
+  0% {opacity:0; 
+    transform: translateX(40px);
+  }
+  50% {opacity:1;}
+  100% {opacity:0;
+    transform: translateX(-40px);
+  }
+}
+@keyframes fade-up{
+    0% {
+        opacity:0;
+        transform: translateY(40px) scale(1);
+    }
+    100% {
+        opacity:1;
+        transform: translateY(0px) scale(1);
+    }
+}
+@keyframes fade-down{
+  0% {
+      opacity:0;
+      transform: translateY(-40px) scale(1);
+  }
+  100% {
+      opacity:1;
+      transform: translateY(0px) scale(1);
+  }
+}
+@keyframes fade-in{
+  0% {
+      opacity:0;
+  }
+  100% {
+      opacity:1;
+  }
+}
+@keyframes pan{
+    0% {opacity:0; 
+      transform: translateX(100%);
+    }
+    50% {opacity:1;}
+    100% {opacity:0;
+      transform: translateX(0px);
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+.body-text{
+position: absolute;
+top: 75vw;
+left: 20vw;
+width: 60vw;
+color:#1943b7;
+}
+.message{
+width: 100vw;
+white-space: nowrap;
+overflow: hidden;
+}
+
+.socials{
+  padding: 5%;
+  width: 100%;
+  height: 10%;
+  border-radius:0%;
+  animation: fade-up 0.9s;
+}
+.link-icon{
+  width:40px;
+  margin-right: 20px;
+}
+.link-icon:hover{
+  transform: rotate(15deg)
+}
+.bottom-text{
+  position: absolute;
+  top:120vw;
+  left: 20vw;
+  color:#1943b7
+}
+
+}

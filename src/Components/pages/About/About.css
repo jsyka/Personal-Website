@@ -1,0 +1,157 @@
+.container{
+    height: 1400px;
+}
+.dark .container{
+    background-color: #1c2a48;
+}
+.text-container{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.me{
+    width:23%;
+    padding: 10px;
+    position: absolute;
+    top:20%;
+    left: 20%;
+    border-radius: 15%;
+    animation: fade-in 0.8s;
+}
+.me:hover{
+    transform: rotate(10deg);
+}
+
+.text{
+    color:#1943b7;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    font-weight: 800;
+    animation: fade-down 0.6s;
+}
+.dark .text{
+    color: #fff;
+}
+.description{
+    width: 25%;
+    color:#1943b7;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    animation: fade-down 0.6s;
+}
+.dark .description{
+    color: #fff;
+}
+.doodle-top{
+    width: 6%;
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    animation: fade-up 0.7s;
+}
+.doodle-top:hover{
+    transform: rotate(15deg);
+}
+.doodle-mid{
+    width:7%;
+    position: absolute;
+    top: 15%;
+    left: 55%;
+    animation: fade-up 0.7s;
+}
+.doodle-mid:hover{
+    transform: rotate(15deg);
+}
+.doodle-bottom{
+    width: 6%;
+    position: absolute;
+    top: 20%;
+    left:75%;
+    animation: fade-up 0.7s;
+    
+}
+.doodle-bottom:hover{
+    transform: rotate(15deg);
+}
+.doodle-mid2{
+    width: 7%;
+    position: absolute;
+    top: 86%;
+    left: 10%;
+    animation: fade-up 0.7s;
+}
+.doodle-mid2:hover{
+    transform: rotate(15deg);
+}
+.goose{
+    width: 13%;
+    position: absolute;
+    top: 55%;
+    left: 75%;
+    animation: fade-up 0.7s;
+}
+.goose:hover{
+    transform: rotate(15deg);
+}
+/* .container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #1943b7;
+    padding: 0.08% 7%;
+    transition: 0.5s;
+} */
+.stuff{
+    display:flex;
+    height: 250px;
+    width: 1000px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:105%;
+    left: 20%;
+    border:0px solid;
+    border-radius: 3%;
+    border-color: #fff;
+}
+
+
+@keyframes fade-down{
+    0% {
+        opacity:0;
+        transform: translateY(-40px) scale(1);
+    }
+    100% {
+        opacity:1;
+        transform: translateY(0px) scale(1);
+    }
+}
+@keyframes fade-up{
+    0% {
+        opacity:0;
+        transform: translateY(40px) scale(1);
+    }
+    100% {
+        opacity:1;
+        transform: translateY(0px) scale(1);
+    }
+}
+@keyframes fade-in{
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+@keyframes cursor{
+    50% { border-color: transparent }
+  }
+  @keyframes typing{
+    from { width: 0 }
+  }
