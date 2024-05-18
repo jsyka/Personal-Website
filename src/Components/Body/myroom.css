@@ -5,14 +5,10 @@
     font-family: 'TitleFont', sans-serif;
   }
 
-.body{
+.container{
     width: 100vw;
     min-height: 100vh;
     transition: 0.5s;
-}
-
-.body.dark{
-  background: #1c2a48;
 }
 
 .roomimg{
@@ -150,7 +146,11 @@
 }
 
 @media screen and (max-width: 900px) {
-  
+.bottom-text{
+  position: absolute;
+  top: 600px;
+}
+
 .roomimg{
   width: 75vw;
   position: absolute;

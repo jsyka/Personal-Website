@@ -80,7 +80,7 @@ const MyRoom = ({ theme }) => {
 
   return (
     <>
-      <div className={`body ${theme}`}>
+      <div className={`container ${theme}`}>
         <img
           src={
             theme === "dark" && shadeIsClicked

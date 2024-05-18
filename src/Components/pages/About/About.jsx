@@ -9,27 +9,54 @@ import goose from "../../pages/About/assets/goose.png";
 import deskTop from "./assets/desktop.png";
 import avatar from "./assets/avatar.png";
 import ExtraStuff from "./extrastuff";
+import html from '../../../assets/html.png';
+import css from '../../../assets/css.png';
+import js from '../../../assets/js.png';
+import react from '../../../assets/react.png';
+import cplusplus from '../../../assets/c++.png';
+import python from '../../../assets/python.png';
 
-const About = () => {
+const About = ({ theme }) => {
   return (
     <>
-      <div className="container">
-        <img className="me" src={avatar} />
+      <div className={`container-1 ${theme}`}>
+        <div className="img-container">
+          <img className="me" src={avatar} />
+        </div>
         <div className="text-container">
-          {/* <img className="goose" src={goose} />
-        <img className="doodle-mid" src={heart} />
-        <img className="doodle-bottom" src={sparkle} />
-        <img className="doodle-top" src={star} />
-        <img className="doodle-mid2" src={planet} /> */}
-          <h1 className="text">My Name is Jessica Jiao</h1>
+          {/* <img className="goose" src={goose} /> */}
+          <img className="doodle-mid" src={heart} />
+          <img className="doodle-bottom" src={sparkle} />
+          <img className="doodle-top" src={star} />
+          <img className="doodle-mid2" src={planet} />
+          <h1 className="name">JESSICA JIAO</h1>
           <h2 className="description">
             I am a second year Mechatronics Engineering Student at the
             University of Waterloo
           </h2>
+          <div className="info-container">
+            <h2 className="prompt">HP:</h2>
+            <div className="bar">
+              <div className="filled">.</div>
+            </div>
+            <h2 className="prompt">EXP: level 19</h2>
+            <div className="bar">
+              <div className="filled-exp">.</div>
+            </div>
+            <h2 className="prompt">ABILITIES</h2>
+            <div className='ability-box'>
+              <img className='lang-icon' src={html}/>
+              <img className='lang-icon' src={css}/>
+              <img className='lang-icon' src={js}/>
+              <img className='lang-icon' src={react}/>
+              <img className='lang-icon' src={cplusplus}/>
+              <img className='lang-icon' src={python}/>
+            </div>
+          </div>
         </div>
-        <div className="stuff">
+        {/* <div className="stuff">
           <ExtraStuff />
-        </div>
+        </div> */}
       </div>
     </>
   );

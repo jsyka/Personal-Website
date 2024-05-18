@@ -7,7 +7,8 @@
     padding: 0.08% 7%;
     transition: 0.5s;
     z-index: 9999;
-    background-color: '';
+    opacity: 1;
+    position: absolute;
 }
 
 .logo{
@@ -42,10 +43,10 @@ ul li{
     transform: rotate(15deg);
 }
 
-.search-box input::placeholder{
+/* .search-box input::placeholder{
     color: #fff;
-}
-.search-box img{
+} */
+/* .search-box img{
     width: 20px;
     height: auto;
     object-fit: contain;
@@ -53,7 +54,7 @@ ul li{
 }
 .dark .navbar{
     color: #fff;
-}
+} */
 
 .nav-text{
     color:#1943b7;

@@ -38,11 +38,8 @@ const Projects = (theme) => {
   };
 
   return (
-    <div className={`body ${theme}`}>
-      <img 
-        className='bg'
-        src={theme=='light'? clouds : stars}
-      />
+    <div className={`container ${theme}`}>
+  
       <h1 className="title"></h1>
       <div className="project-container">
         <img

@@ -7,13 +7,16 @@
 
 .container{
     max-width: 1920px;
-    min-height: 100vh;
+    max-height: 960px;
     background: #fff;
     transition: 0.5s;
 }
 
-.body.dark{
-  background: #1c2a48;
+.intro{
+  color: #1943b7;
+}
+.dark .intro{
+  color: #fff;
 }
 
 .body-text{
@@ -35,9 +38,13 @@
   width: 100%;
   white-space: nowrap;
   overflow: hidden;
+  color: #1943b7;
   animation:
     typing 4s steps(41),
     cursor .4s step-end infinite alternate;
+}
+.dark .message{
+  color:#fff;
 }
 @keyframes cursor{
   50% { border-color: transparent }
@@ -48,6 +55,7 @@
 
 h1, h2{
   font-weight: normal;
+  color:#1943b7;
 }
 
 .socials{
@@ -72,21 +80,6 @@ h1, h2{
 }
 .dark .bottom-text{
   color: #fff;
-}
-.bg{
-  animation:
-    blinking 3s infinite;
-    z-index: 0;
-}
-
-@keyframes blinking{
-  0% {opacity:0; 
-    transform: translateX(40px);
-  }
-  50% {opacity:1;}
-  100% {opacity:0;
-    transform: translateX(-40px);
-  }
 }
 @keyframes fade-up{
     0% {
@@ -126,11 +119,12 @@ h1, h2{
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
+
 
 .body-text{
 position: absolute;
-top: 75vw;
+top: 600px;
 left: 20vw;
 width: 60vw;
 color:#1943b7;
