@@ -1,0 +1,58 @@
+.container-bluem{
+    padding: 100px;
+    padding-top: 200px;
+    padding-left: 400px;
+    width: 500px;
+}
+.img-border{
+    padding: 20px;
+    /* border-radius: 20px;
+    width: 440px;
+    height: 440px;
+    z-index: 500;
+    background-color: white; */
+}
+.P-Bluem-img{
+    position: relative;
+    border-radius: 0px;
+    width: 400px;
+    height: 400px;
+    z-index: 500;
+}
+.P-Bluem-img:hover{
+    position: absolute;
+    width: 420px;
+    height: 420px;
+    top: 210px;
+    left: 410px;
+}
+.P-Bluem-name{
+    position: absolute;
+    top: 270px;
+    left: 700px;
+    font-size: 85px;
+    color: #1943b7;
+    z-index: 600;
+}
+.dark .P-Bluem-name{
+    color: rgb(234, 101, 124);
+}
+.P-Bluem-subheading{
+    position: absolute;
+    top: 400px;
+    left: 870px;
+    color: #1943b7;
+}
+.dark .P-Bluem-subheading{
+    color: #fff;
+}
+.P-Bluem-desc{
+    position: absolute;
+    top: 450px;
+    left: 870px;
+    width: 400px;
+    color: #1943b7;
+}
+.dark .P-Bluem-desc{
+    color: #fff;
+}

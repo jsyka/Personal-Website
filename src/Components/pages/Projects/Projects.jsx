@@ -17,6 +17,8 @@ import robo from "./Project-assets/robo.png";
 import jakt from './Project-assets/jakt.png';
 import stars from './Project-assets/stars.png';
 import clouds from './Project-assets/clouds.png';
+import Bluem from "./Bluem";
+import Bite from './Bite';
 
 const Projects = (theme) => {
   const [isBluemVisible, setIsBluemVisible] = useState(false);
@@ -38,8 +40,12 @@ const Projects = (theme) => {
   };
 
   return (
-    <div className={`container ${theme}`}>
-  
+    <div className={`container-P ${theme}`}>
+      <div className="container-pr">
+    <Bluem/>
+    </div>
+    <Bite />
+{/*   
       <h1 className="title"></h1>
       <div className="project-container">
         <img
@@ -124,7 +130,7 @@ const Projects = (theme) => {
             </p>
           </div>
         ) : null}
-      </div>
+      </div> */}
     </div>
   );
 };

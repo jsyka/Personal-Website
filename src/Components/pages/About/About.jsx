@@ -19,7 +19,7 @@ import python from '../../../assets/python.png';
 const About = ({ theme }) => {
   return (
     <>
-      <div className={`container-1 ${theme}`}>
+      <div className={`container-A ${theme}`}>
         <div className="img-container">
           <img className="me" src={avatar} />
         </div>

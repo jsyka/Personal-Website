@@ -1,17 +1,24 @@
-body {
-    color:#1943b7;
-    /* background-image: url(./Project-assets/gradient.png); */
+.container-P{
+    height: 1500px;
+    z-index: 100;
+    background-image: url(../../../assets/gradient-bg.jpg);
+    object-fit: cover;
 }
-
-.dark body{
-    color: white;
+.dark .container-P{
+    transition: 0.5s;
+    background-image: url(../../../assets/gradient-night.png);
+  }
+.container-pr{
+    height: 500px;
 }
 .title{
     position: absolute;
     left: 25%;
     top: 20%;
 }
-
+.container-P{
+    height: 1400px;
+}
 .project-container{
     width:25%;
     align-items: center;

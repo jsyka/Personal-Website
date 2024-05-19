@@ -1,0 +1,58 @@
+.container-bite{
+    padding: 100px;
+    padding-top: 200px;
+    padding-left: 400px;
+    width: 500px;
+}
+.img-border{
+    padding: 20px;
+    /* border-radius: 20px;
+    width: 440px;
+    height: 440px;
+    z-index: 500;
+    background-color: white; */
+}
+.P-Bite-img{
+    position: relative;
+    border-radius: 0px;
+    width: 400px;
+    height: 400px;
+    z-index: 500;
+}
+.P-Bite-img:hover{
+    position: absolute;
+    width: 420px;
+    height: 420px;
+    top: 710px;
+    left: 410px;
+}
+.P-Bite-name{
+    position: absolute;
+    top: 770px;
+    left: 700px;
+    font-size: 85px;
+    color: #fff;
+    z-index: 600;
+}
+.dark .P-Bite-name{
+    color: rgb(121, 183, 90);
+}
+.P-Bite-subheading{
+    position: absolute;
+    top: 900px;
+    left: 870px;
+    color: #fff;
+}
+.dark .P-Bite-subheading{
+    color: #fff;
+}
+.P-Bite-desc{
+    position: absolute;
+    top: 950px;
+    left: 870px;
+    width: 400px;
+    color: #fff;
+}
+.dark .P-Bite-desc{
+    color: #fff;
+}

@@ -1,10 +1,10 @@
-.container-1{
+.container-A{
     height: 1000px;
     z-index: 100;
     background-image: url(../../../assets/gradient-bg.jpg);
     object-fit: cover;
 }
-.dark .container-1{
+.dark .container-A{
     transition: 0.5s;
     background-image: url(../../../assets/gradient-night.png);
   }
@@ -38,9 +38,11 @@
     border: 2px solid;
     border-radius: 12px;
     padding: 14.3px;
+    border-color: #1943b7;
 }
 .dark .ability-box{
     color: #fff;
+    border-color: #fff;
 }
 .lang-icon{
     height:70px;
@@ -96,6 +98,7 @@
 .bar{
     border: 2px solid;
     border-radius: 12px;
+    border-color: #1943b7;
 }
 .dark .bar{
 border-color: white;
@@ -106,8 +109,8 @@ border-color: white;
     border-radius: 12px;
 }
 .dark .filled{
-    background-color: white;
-    color: white;
+    background-color: rgb(255, 135, 181);
+    color:  rgb(255, 135, 181);
 }
 .filled-exp{
     width: 70px;
@@ -115,8 +118,8 @@ border-color: white;
     border-radius: 12px;
 }
 .dark .filled-exp{
-    background-color: white;
-    color: white;
+    background-color: rgb(255, 135, 181);
+    color: rgb(255, 135, 181);
 }
 .char-info{
     padding: 3%;
