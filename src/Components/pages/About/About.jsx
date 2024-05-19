@@ -25,10 +25,10 @@ const About = ({ theme }) => {
         </div>
         <div className="text-container">
           {/* <img className="goose" src={goose} /> */}
-          <img className="doodle-mid" src={heart} />
-          <img className="doodle-bottom" src={sparkle} />
-          <img className="doodle-top" src={star} />
-          <img className="doodle-mid2" src={planet} />
+          <img className="doodle-heart" src={heart} />
+          <img className="doodle-sparkle" src={sparkle} />
+          <img className="doodle-star" src={star} />
+          <img className="doodle-planet" src={planet} />
           <h1 className="name">JESSICA JIAO</h1>
           <h2 className="description">
             I am a second year Mechatronics Engineering Student at the

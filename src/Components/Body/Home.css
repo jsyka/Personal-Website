@@ -5,11 +5,17 @@
     font-family: 'TitleFont', sans-serif;
   }
 
-.container{
+.container-h{
     max-width: 1920px;
     max-height: 960px;
-    background: #fff;
     transition: 0.5s;
+    background-image: url(./assets/gradient-bg.jpg);
+    object-fit: cover;
+}
+
+.dark .container-h{
+  transition: 0.5s;
+  background-image: url(./assets/gradient-night.png);
 }
 
 .intro{
@@ -74,7 +80,7 @@ h1, h2{
 }
 .bottom-text{
   position: absolute;
-  top:92%;
+  top:800px;
   left: 10%;
   color:#1943b7
 }
@@ -121,6 +127,9 @@ h1, h2{
 
 @media screen and (max-width: 1000px) {
 
+.container-h{
+  height: 1900px;
+}
 
 .body-text{
 position: absolute;
@@ -130,9 +139,12 @@ width: 60vw;
 color:#1943b7;
 }
 .message{
-width: 100vw;
+width: 457px;
 white-space: nowrap;
 overflow: hidden;
+animation:
+typing 4s steps(41),
+cursor .4s step-end infinite alternate;
 }
 
 .socials{
@@ -151,7 +163,7 @@ overflow: hidden;
 }
 .bottom-text{
   position: absolute;
-  top:120vw;
+  top:100px;
   left: 20vw;
   color:#1943b7
 }

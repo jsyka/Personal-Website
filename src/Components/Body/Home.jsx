@@ -12,7 +12,7 @@ import MyRoom from "./myroom";
 const App = ({ theme }) => {
   return (
     <>
-      <div className='container'>
+      <div className='container-h'>
         <MyRoom theme={theme} />
         <div className="body-text">
           <h1 className="intro">WELCOME TO MY ROOM</h1>
@@ -33,9 +33,6 @@ const App = ({ theme }) => {
             </Link>
           </div>
         </div>
-        <text className="bottom-text">
-          Jessica Jiao 2024 . this website was made with react
-        </text>
       </div>
     </>
   );

@@ -56,3 +56,36 @@
 .dark .P-Bite-desc{
     color: #fff;
 }
+@media screen and (max-width: 1000px) {
+    .container-bite{
+        padding-left: 50px;
+    }
+    .img-border{
+        padding-left: 50px;
+    }
+    .P-Bite-img{
+        width: 300px;
+        height: 300px;
+    }
+    .P-Bite-name{
+        left: 440px;
+        transform: translate(0, -105px);
+    }
+    .P-Bite-subheading{
+        left: 450px;
+        transform: translate(0, -20px);
+    }
+    .P-Bite-desc{
+        left: 450px;
+        transform: translate(0, -25px);
+        width: 300px;
+    }
+    .P-Bite-img:hover{
+        width: 320px;
+        height: 320px;
+        position: absolute;
+        top: 710px;
+        left: 90px;
+
+    }
+}

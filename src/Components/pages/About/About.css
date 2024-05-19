@@ -42,7 +42,7 @@
 }
 .dark .ability-box{
     color: #fff;
-    border-color: #fff;
+    border-color: rgb(255, 135, 181);
 }
 .lang-icon{
     height:70px;
@@ -101,7 +101,7 @@
     border-color: #1943b7;
 }
 .dark .bar{
-border-color: white;
+border-color: rgb(255, 135, 181);
 }
 .filled{
     width: 300px;

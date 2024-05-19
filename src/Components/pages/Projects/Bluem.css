@@ -4,6 +4,19 @@
     padding-left: 400px;
     width: 500px;
 }
+.built-with{
+    position: relative;
+    left: 480px;
+    top: 25px;
+    width: 1000px;
+}
+.built-lang{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 610px;
+    top: -10px;
+}
 .img-border{
     padding: 20px;
     /* border-radius: 20px;
@@ -18,12 +31,13 @@
     width: 400px;
     height: 400px;
     z-index: 500;
+    top: -50px;
 }
 .P-Bluem-img:hover{
     position: absolute;
     width: 420px;
     height: 420px;
-    top: 210px;
+    top: 240px;
     left: 410px;
 }
 .P-Bluem-name{
@@ -55,4 +69,38 @@
 }
 .dark .P-Bluem-desc{
     color: #fff;
+}
+
+@media screen and (max-width: 1000px)
+{
+.container-bluem{
+    padding-left: 50px;
+}
+.img-border{
+    padding-left: 50px;
+}
+.P-Bluem-img{
+    width: 300px;
+    height: 300px;
+}
+.P-Bluem-name{
+    left: 440px;
+    top: 200px;
+}
+.P-Bluem-subheading{
+    left: 450px;
+    top: 305px;
+}
+.P-Bluem-desc{
+    left: 450px;
+    top: 350px;
+    width: 300px;
+}
+.P-Bluem-img:hover{
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    top: 210px;
+    left: 90px;
+}
 }

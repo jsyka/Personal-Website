@@ -1,0 +1,9 @@
+.container-R{
+    padding: 300px;
+}
+.warning{
+    color:#1943b7;
+}
+.dark .warning{
+    color: white;
+}
