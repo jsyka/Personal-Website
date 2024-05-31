@@ -260,7 +260,7 @@ border-color: rgb(255, 135, 181);
   }
 
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 500px) {
     .img-container{
         position:absolute;
         left: 2.5%;
