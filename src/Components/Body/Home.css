@@ -169,3 +169,57 @@ cursor .4s step-end infinite alternate;
 }
 
 }
+
+
+
+@media screen and (max-width: 400px) {
+
+.room{
+  position: absolute;
+  top: 20%;
+}
+
+.container-h{
+    max-height: 900px;
+  }
+  
+  .body-text{
+  position: absolute;
+  top: 420px;
+  font-size: 12px;
+  left: 20vw;
+  width: 60vw;
+  color:#1943b7;
+  }
+  .message{
+    width: 200px;
+    animation: none;
+    border: none;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+  }
+  
+  .socials{
+    padding: 5%;
+    width: 100%;
+    height: 10%;
+    border-radius:0%;
+    animation: fade-up 0.9s;
+  }
+  .link-icon{
+    width:40px;
+    margin-right: 20px;
+  }
+  .link-icon:hover{
+    transform: rotate(15deg)
+  }
+  .bottom-text{
+    position: absolute;
+    top:100px;
+    left: 20vw;
+    color:#1943b7
+  }
+  
+  }
+  

@@ -260,3 +260,53 @@ border-color: rgb(255, 135, 181);
   }
 
 
+  @media screen and (max-width: 400px) {
+    .img-container{
+        position:absolute;
+        left: 2.5%;
+    }
+    .me{
+        width: 40%;
+    }
+    .name{
+        position:absolute;
+        top: 200px;
+        font-size: 26px;
+    }
+    .description{
+        top: 280px;
+        width: 150px;
+        font-size: 12px;
+    }
+    .ability-box{
+        width: 150px;
+        height: 180px;
+    }
+
+    .info-container{
+        position: absolute;
+        top: 350px;
+        left: 50%;
+        font-size: 8px;
+        width: 150px;
+    }
+    .bar{
+        border: 2px solid;
+        border-radius: 12px;
+        border-color: #1943b7;
+    }
+    .filled{
+        width: 120px;
+        background-color: #1943b7;
+        border-radius: 12px;
+    }
+    .filled-exp{
+        width: 25px;
+        background-color: #1943b7;
+        border-radius: 12px;
+    }
+    .lang-icon{
+        width: 59px;
+        height: auto;
+    }
+}

@@ -13,7 +13,9 @@ const App = ({ theme }) => {
   return (
     <>
       <div className='container-h'>
+        <div className="room">
         <MyRoom theme={theme} />
+        </div>
         <div className="body-text">
           <h1 className="intro">WELCOME TO MY ROOM</h1>
           <br />
