@@ -1,18 +1,14 @@
-.container-A{
-    height: 1000px;
-    z-index: 100;
-    background-image: url(../../../assets/gradient-bg.jpg);
-    object-fit: cover;
-}
-.dark .container-A{
-    transition: 0.5s;
-    background-image: url(../../../assets/gradient-night.png);
-  }
+
 .dark h1, h2{
     color:white;
 }
+body{
+    background-image: linear-gradient(#18336e, #18336e, #1c4676, #21547a, #2a6e89);
+    background-position: fixed;
+    background-size: auto;
+}
 
-.text-container{
+.text-containerA{
     height: 200px;
     display: flex;
     justify-content: center;

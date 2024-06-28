@@ -1,6 +1,7 @@
 import "./myroom.css";
 import { Link } from "react-router-dom";
 import React, { useEffect, useState } from "react";
+import profile from '../../assets/profilephoto.jpg'
 
 //room
 import roomDay from "./Room-assets/room-day.png";
@@ -40,10 +41,18 @@ const MyRoom = ({ theme }) => {
   const [postersIsHovered, setPostersIsHovered] = useState(false);
   const [bedIsHovered, setBedIsHovered] = useState(false);
   const [PrinterIsHovered, setPrinterIsHovered] = useState(false);
+  const [shadeIsHovered, setShadeIsHovered] =useState(false);
 
   const [lampIsClicked, setLampIsClicked] = useState(false);
   const [shadeIsClicked, setShadeIsClicked] = useState(false);
 
+
+  const handleShadeMouseEnter =() =>{
+    setShadeIsHovered(true);
+  }
+  const handleShadeMouseLeave =() => {
+    setShadeIsHovered(false);
+  }
   const handleLampMouseEnter = () => {
     setLampIsHovered(true);
     console.log("lamp hovered");
@@ -80,7 +89,7 @@ const MyRoom = ({ theme }) => {
 
   return (
     <>
-      <div className={`container ${theme}`}>
+      <div className={''}>
         <img
           src={
             theme === "dark" && shadeIsClicked
@@ -154,6 +163,8 @@ const MyRoom = ({ theme }) => {
               ? shadeDayOpen
               : shadeNightOpen
           }
+          onMouseEnter={handleShadeMouseEnter}
+            onMouseLeave={handleShadeMouseLeave}
           onClick={toggleShade}
           className="shade"
         />
@@ -175,6 +186,17 @@ const MyRoom = ({ theme }) => {
           />
         </Link>
       </div>
+      {bedIsHovered? <><div className="myroom-about-popup">
+        <h1>you woke me up!</h1>
+        <img className="room-profile"src={profile}/>
+        <h3>Welcome to my personal website!</h3>
+        <h3>Look around to learn more about me!</h3>
+        
+      </div><div className="bed-popup">Visit About Me</div></>: <div></div>}
+      {lampIsHovered? <div className="lamp-popup">toggle lamp</div>:<div></div>}
+      {shadeIsHovered? <div className="shade-popup">toggle blinds</div>:<div></div>}
+      {postersIsHovered? <div className="posters-popup">visit project gallery</div>: <div></div>}
+      {PrinterIsHovered? <div className="printer-popup">read my resume</div>: <div></div>}
     </>
   );
 };

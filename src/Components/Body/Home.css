@@ -138,6 +138,11 @@ left: 20vw;
 width: 60vw;
 color:#1943b7;
 }
+.greeting{
+  color: #1943b7;
+  margin-bottom: 10px;
+}
+
 .message{
 width: 457px;
 white-space: nowrap;
@@ -165,7 +170,7 @@ cursor .4s step-end infinite alternate;
   position: absolute;
   top:100px;
   left: 20vw;
-  color:#1943b7
+  color:#1943b7;
 }
 
 }

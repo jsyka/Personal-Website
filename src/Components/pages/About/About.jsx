@@ -23,7 +23,7 @@ const About = ({ theme }) => {
         <div className="img-container">
           <img className="me" src={avatar} />
         </div>
-        <div className="text-container">
+        <div className="text-containerA">
           {/* <img className="goose" src={goose} /> */}
           {/* <img className="doodle-heart" src={heart} />
           <img className="doodle-sparkle" src={sparkle} />

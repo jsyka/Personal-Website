@@ -95,8 +95,105 @@
   left: 45.8vw;
   transform: translate(-2vw, -38vw);
 }
+.lamp-popup{
+  width: 110px;
+  align-items: center;
+  text-align: center;
+  height: 30px;
+  position: absolute;
+  top: 22vw;
+  left: 18vw;
+  background-color: #fff9f0b7;
+  color: #1842b68e;
+  border: 2px solid #1842b68e;
+  border-radius: 20px;
+}
+.shade-popup{
+  width: 110px;
+  align-items: center;
+  text-align: center;
+  height: 30px;
+  position: absolute;
+  top: 11vw;
+  left: 22vw;
+  background-color: #fff9f0b7;
+  color: #1842b68e;
+  border: 2px solid #1842b68e;
+  border-radius: 20px;
+}
+.posters-popup{
+  width: 200px;
+  align-items: center;
+  text-align: center;
+  height: 30px;
+  position: absolute;
+  top: 9.8vw;
+  left: 36vw;
+  background-color: #fff9f0b7;
+  color: #1842b68e;
+  border: 2px solid #1842b68e;
+  border-radius: 20px;
+}
 
+.printer-popup{
+  width: 160px;
+  align-items: center;
+  text-align: center;
+  height: 30px;
+  position: absolute;
+  top: 16vw;
+  left:43vw;
+  background-color: #fff9f0b7;
+  color: #1842b68e;
+  border: 2px solid #1842b68e;
+  border-radius: 20px;
+}
+.bed-popup{
+  width: 150px;
+  align-items: center;
+  text-align: center;
+  height: 30px;
+  position: relative;
+  left: 20vw;
+  top: 16vw;
+  background-color: #fff9f0b7;
+  color: #1842b68e;
+  border: 2px solid #1842b68e;
+  border-radius: 20px;
+}
+.myroom-about-popup{
+  width: 400px;
+  height: 400px;
+  background-color: #fff9f0b7;
+  border: 3px solid #1841b6;
+  backdrop-filter: blur(3px);
+  position: fixed;
+  top: 20vh;
+  left: 40vw;
+  animation: fade-up 0.W2s;
+  border-radius: 40px;
+  padding: 40px;
+  z-index: 2;
+}
+.myroom-about-popup h1{
+  color:#1841b6;
+  margin-bottom: 5px;
+}
+/* .dark .myroom-about-popup h1{
+  color:#1841b6;
+} */
 
+.room-profile{
+  width: 200px;
+  position: relative;
+  left: 50px;
+  border-radius: 100px;
+  margin: 10px;
+}
+.dark .myroom-about-popup{
+  border: 3px solid white;
+  background-color: rgba(212, 238, 255, 0.197);
+}
 
 @keyframes blinking{
   0% {opacity:0; 

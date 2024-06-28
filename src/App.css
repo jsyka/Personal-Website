@@ -1,0 +1,54 @@
+
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+    font-family: 'TitleFont', sans-serif;
+    
+  }
+  /* :root {
+    background-image: linear-gradient(#b7d6ed, #b7d6ed, #b7d6ed, #c5daee, #ccd7ea, #e9dbea, #f5d6d6);
+    --background-light: linear-gradient(#b7d6ed, #b7d6ed, #b7d6ed, #c5daee, #ccd7ea, #e9dbea, #f5d6d6);
+    --background-dark: linear-gradient(#18336e, #18336e, #1c4676, #21547a, #2a6e89);
+} */
+
+
+body {
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient(#b7d6ed, #b7d6ed, #b7d6ed, #c5daee, #ccd7ea, #e9dbea, #f5d6d6);
+    min-height: 100vh;
+    transition: 0.5s;
+    color: #1943b7
+    /* border: 5px solid green; */
+} 
+
+h1, h2, h3, p{
+  font-weight: normal;
+  color:#1943b7;
+}
+.dark h1{
+    color: white;
+}
+.dark h2{
+  color: white;
+}
+.dark h3{
+  color: white;
+}
+
+.bg{
+    height: 90vh;
+    width: 100vw;
+    object-fit: cover;
+    z-index: 0;
+    position: fixed;
+    animation: blinking 3s infinite;
+    
+}
+.container{
+
+}
+.dark.container{
+  background-image: linear-gradient(#18336e, #18336e, #1c4676, #21547a, #2a6e89);
+}

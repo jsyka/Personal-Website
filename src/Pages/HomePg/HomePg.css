@@ -1,0 +1,130 @@
+.text-container{
+    position: absolute;
+    top: 25vh;
+    left: 55vw;
+    display:block;
+    /* border: 3px solid; */
+    width: 30vw;
+    height: 30vh;
+    z-index: 0;
+}
+
+.instructions{
+    margin: none;
+    border: 2px solid;
+    margin: 0;
+    position: relative;
+    padding: 0 20px;
+}
+.greeting{
+    margin-bottom: 20px;
+    
+}
+
+.profile-icon{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+
+.welcome-heading{
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+
+.socials{
+  padding: 5%;
+  width: 100%;
+  height: 10%;
+  border-radius:0%;
+  animation: fade-up 0.9s;
+}
+.link-icon{
+  width:40px;
+  margin-right: 20px;
+}
+.link-icon:hover{
+  transform: rotate(15deg)
+}
+
+@media screen and (max-width: 1000px) {
+
+.container-h{
+  height: 1900px;
+}
+
+.body-text{
+position: absolute;
+top: 600px;
+left: 20vw;
+width: 60vw;
+color:#1943b7;
+}
+
+.socials{
+  padding: 5%;
+  width: 100%;
+  height: 10%;
+  border-radius:0%;
+  animation: fade-up 0.9s;
+}
+.link-icon{
+  width:40px;
+  margin-right: 20px;
+}
+
+}
+
+
+
+@media screen and (max-width: 500px) {
+
+.room{
+  position: absolute;
+  top: 20%;
+}
+
+.container-h{
+    max-height: 900px;
+  }
+  
+  .body-text{
+  position: absolute;
+  top: 420px;
+  font-size: 12px;
+  left: 20vw;
+  width: 60vw;
+  color:#1943b7;
+  }
+  .message{
+    width: 200px;
+    animation: none;
+    border: none;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+  }
+  
+  .socials{
+    padding: 5%;
+    width: 100%;
+    height: 10%;
+    border-radius:0%;
+    animation: fade-up 0.9s;
+  }
+  .link-icon{
+    width:40px;
+    margin-right: 20px;
+  }
+  .link-icon:hover{
+    transform: rotate(15deg)
+  }
+  .bottom-text{
+    position: absolute;
+    top:100px;
+    left: 20vw;
+    color:#1943b7
+  }
+  
+  }
+  

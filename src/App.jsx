@@ -7,6 +7,9 @@ import Resume from './Components/pages/Resume/Resume';
 import { Route, Routes } from "react-router-dom";
 import stars from './assets/stars.png';
 import clouds from './assets/clouds.png';
+import HomePg from "./Pages/HomePg/HomePg";
+import AboutPg from "./Pages/AboutPg/AboutPg";
+import './App.css';
 
 const App = () => {
   const current_theme = localStorage.getItem("current_theme");
@@ -16,16 +19,21 @@ const App = () => {
     localStorage.setItem("current_theme", theme);
   }, [theme]);
 
+
+
+  
   return (
     <div className={`container ${theme}`}>
+
       <img className="bg" src={theme == "light" ? clouds : stars} />
       <Navbar theme={theme} setTheme={setTheme} />
       <Routes className='contents'>
-        <Route path="/Personal-Website" element={<Home theme={theme} setTheme={setTheme} />} />
+        <Route path="/Personal-Website" element={<HomePg theme={theme} setTheme={setTheme} />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/resume" element={<Resume />} />
       </Routes>
+
     </div>
   );
 };
