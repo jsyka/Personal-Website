@@ -1,14 +1,23 @@
 import React from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import logo_light from "../../assets/logo-black.png";
 import logo_dark from "../../assets/logo-white.png";
 import toggle_light from "../../assets/night.png";
 import toggle_dark from "../../assets/day.png";
+import hamburger from "../../assets/hamburger.png";
+import hamburger_white from '../../assets/hamburger-light.png'
 
 const Navbar = ({ theme, setTheme }) => {
+  const [isOpen, setIsOpen] = useState(false);
+
   const toggle_mode = () => {
     theme === "light" ? setTheme("dark") : setTheme("light");
+  };
+
+  const toggle_menu = () => {
+    setIsOpen(!isOpen);
   };
 
   return (
@@ -18,18 +27,52 @@ const Navbar = ({ theme, setTheme }) => {
         alt=""
         className="logo"
       />
-      <ul>
+      
+      <div className={isOpen ? "ham-open" : "closed"}>
+        <ul className="ham-links">
+          <li>
+            <Link onClick={toggle_menu} to="/Personal-Website" className="ham-text">
+              home
+            </Link>
+          </li>
+          <li>
+            <Link onClick={toggle_menu} to="/about" className="ham-text">
+              about
+            </Link>
+          </li>
+          <li>
+            <Link onClick={toggle_menu} to="projects" className="ham-text">
+              projects
+            </Link>
+          </li>
+          <li>
+            <Link onClick={toggle_menu} to="/resume" className="ham-text">
+              resume
+            </Link>
+          </li>
+        </ul>
+      </div>
+      <img className="hamburger" src={isOpen || theme =='dark'? hamburger_white:hamburger} onClick={toggle_menu} />
+      <ul className={"topbar"}>
         <li>
-          <Link to='/Personal-Website' className='nav-text'>home</Link>
+          <Link to="/Personal-Website" className="nav-text">
+            home
+          </Link>
         </li>
         <li>
-          <Link to='/about' className='nav-text'>about</Link>
+          <Link to="/about" className="nav-text">
+            about
+          </Link>
         </li>
         <li>
-          <Link to='projects' className='nav-text'>projects</Link>
+          <Link to="projects" className="nav-text">
+            projects
+          </Link>
         </li>
         <li>
-          <Link to='/resume' className='nav-text'>resume</Link>
+          <Link to="/resume" className="nav-text">
+            resume
+          </Link>
         </li>
       </ul>
       {/* <div className="search-box">
