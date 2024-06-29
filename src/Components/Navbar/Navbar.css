@@ -11,10 +11,14 @@
     position: absolute;
 }
 .hamburger{
+    opacity: 0;
+    position: absolute;
     width: 30px;
-    position: fixed;
-    left: 93vw;
+        left: 93vw;
     
+}
+.hamburger:hover{
+    transform: rotate(10deg);
 }
 .ham-open {
     position: fixed;
@@ -29,13 +33,19 @@
     text-align: center;
     width: 100%;
     height: 100vh;
-    background-color: #1943b7;
+    background-color: #1943b78e;
+    backdrop-filter: blur(10px);
     padding: 20px 0; /* Add some padding to space out the links */
   }
 .ham-text{
     color: white;
     text-decoration: none;
     margin-left: none;
+}
+.ham-text:hover{
+    color:#ff96cc;
+    text-decoration: underline;
+    /* animation: fade-up 0.2s; */
 }
 .ham-links{
     
@@ -52,7 +62,7 @@
     object-fit: contain;
 }
 .logo:hover{
-    transform: rotate(-15deg);
+    transform: rotate(-5deg);
 }
 ul{
     flex: 1;
@@ -109,6 +119,11 @@ ul li{
 }
 
 @media screen and (max-width: 800px){
+    .hamburger{
+        opacity: 1;
+        
+        
+    }
     .topbar{
         display: none;
     }

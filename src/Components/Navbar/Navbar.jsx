@@ -22,11 +22,13 @@ const Navbar = ({ theme, setTheme }) => {
 
   return (
     <nav className="navbar">
+      <Link to="/Personal-Website" className="ham-text">
       <img
         src={theme === "light" ? logo_light : logo_dark}
         alt=""
         className="logo"
       />
+            </Link>
       
       <div className={isOpen ? "ham-open" : "closed"}>
         <ul className="ham-links">

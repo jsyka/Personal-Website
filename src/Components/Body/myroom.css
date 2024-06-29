@@ -343,15 +343,10 @@ padding: 0;
   backdrop-filter: none;
 
 }
-.myroom-about-popup h1{
-  color: #1842b600;
+.myroom-about-popup{
+  display: none;
 }
-.myroom-about-popup h3{
-  color: #1842b600;
-}
-.room-profile{
-  width: 0;
-}
+
 .bed-popup{
   top: 30vw;
 }

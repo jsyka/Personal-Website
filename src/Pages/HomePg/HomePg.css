@@ -88,34 +88,19 @@ color:#1943b7;
 
 .room{
   position: absolute;
-  top: 20%;
+  top: 6vh;
+}
+.welcome-heading{
+  font-size: 40px;
+}
+.text-container{
+  margin:0 50px;
+    position: absolute;
+    top: 80vw;
+    left: 0vw;
+    width:auto;
 }
 
-.text-container{
-    position: absolute;
-    top: 60vw;
-    left: 0vw;
-}
-.container-h{
-    max-height: 900px;
-  }
-  
-  .body-text{
-  position: absolute;
-  top: 420px;
-  font-size: 12px;
-  left: 20vw;
-  width: 60vw;
-  color:#1943b7;
-  }
-  .message{
-    width: 200px;
-    animation: none;
-    border: none;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    white-space: normal;
-  }
   
   .socials{
     padding: 5%;
