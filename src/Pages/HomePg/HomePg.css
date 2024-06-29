@@ -75,7 +75,14 @@ color:#1943b7;
 
 }
 
-
+@media screen and (max-width: 800px) {
+    .text-container{
+        top: 70vw;
+        left: 15vw;
+        align-items: center;
+        width: 500px;
+    }
+}
 
 @media screen and (max-width: 500px) {
 
@@ -84,6 +91,11 @@ color:#1943b7;
   top: 20%;
 }
 
+.text-container{
+    position: absolute;
+    top: 60vw;
+    left: 0vw;
+}
 .container-h{
     max-height: 900px;
   }

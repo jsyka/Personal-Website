@@ -331,4 +331,31 @@ transform: translate(-2.7vw, -39.5vw);
   top:20.4vw;
   left:27.5vw;
 }
+
+.myroom-about-popup{
+position: absolute;
+top: 0px;
+left: 0px;
+height: 0px;
+width: 0px;
+padding: 0;
+  background-color: #1842b600;
+  backdrop-filter: none;
+
+}
+.myroom-about-popup h1{
+  color: #1842b600;
+}
+.myroom-about-popup h3{
+  color: #1842b600;
+}
+.room-profile{
+  width: 0;
+}
+.bed-popup{
+  top: 30vw;
+}
+.lamp-popup{
+  top: 36vw;
+}
 }
