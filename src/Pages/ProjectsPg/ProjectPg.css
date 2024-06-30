@@ -10,7 +10,7 @@
     padding: 2%;
     display: flex;
     justify-content: center;
-    border: 3px solid;
+    border: 0px solid;
 }
 .exp-details{
     border-radius: 20px;
