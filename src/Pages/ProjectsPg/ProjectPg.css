@@ -20,6 +20,7 @@
     margin: 20px;
     padding: 30px;
     background-color: #e4f6fc88;
+    box-shadow: 0 4px 8px rgba(72, 40, 40, 0.2);
     backdrop-filter: blur(3px);
 }
 .bulletpt-list{
@@ -53,9 +54,11 @@
     height: 100%;
     /* background-color: rgba(255, 255, 255, 0.14); */
     border-left: 3px solid white;
+
 }
 .exp-det-cont{
     text-align: left;
+    
 }
 .exp-det-cont h1{
     font-family: titlefontbold;
@@ -115,3 +118,46 @@ font-size: 30px;
     .clicked h3{
         color: #ff51a5;
     }
+
+.proj-container{
+    height: 100%;
+    width: 97%;
+    padding: 2%;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    /* border: 2px solid;
+    background-color: white; */
+}
+
+.proj-card{
+    margin: 0 20px;
+    padding: 20px;
+    height: 600px;
+    width: 500px;
+    border: 2px solid white;
+    background-color: #e4f6fc38;
+    background-color: rgb(249, 254, 255);
+    backdrop-filter: blur(3px);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(72, 40, 40, 0.2);
+}
+.proj-card h1{
+    color: rgb(122, 160, 83);
+}
+.proj-card h3{
+    color: rgb(116, 104, 86);
+}
+.proj-img{
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border: 2px solid white;
+    box-shadow: 0 4px 8px rgba(72, 40, 40, 0.2);
+}
+.proj-blurb{
+    margin: 20px;
+    
+}
