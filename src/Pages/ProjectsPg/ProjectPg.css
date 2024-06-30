@@ -133,8 +133,8 @@ font-size: 30px;
 .proj-card{
     margin: 0 20px;
     padding: 20px;
-    height: 600px;
-    width: 500px;
+    height: 100%;
+    width: 400px;
     border: 2px solid white;
     background-color: #e4f6fc38;
     background-color: rgb(249, 254, 255);
@@ -149,8 +149,8 @@ font-size: 30px;
     color: rgb(116, 104, 86);
 }
 .proj-img{
-    width: 450px;
-    height: 300px;
+    width: 350px;
+    height: 200px;
     object-fit: cover;
     border-radius: 15px;
     margin-bottom: 20px;
@@ -159,5 +159,5 @@ font-size: 30px;
 }
 .proj-blurb{
     margin: 20px;
-    
+
 }

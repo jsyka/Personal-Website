@@ -187,7 +187,7 @@ const MyRoom = ({ theme }) => {
         </Link>
       </div>
       {bedIsHovered? <><div className="myroom-about-popup" onMouseEnter={handleBedMouseEnter}>
-        <h1>you woke me up!</h1>
+        <h1>oh hello there!</h1>
         <img className="room-profile"src={profile}/>
         <h3>Welcome to my personal website!</h3>
         <h3>Look around to learn more about me!</h3>
