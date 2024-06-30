@@ -1,0 +1,117 @@
+.project-page{
+    padding:150px 0 50px 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.exp-container{
+    height: 100%;
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    border: 3px solid;
+}
+.exp-details{
+    border-radius: 20px;
+    min-height: 360px;
+    width: 25vw;
+    border: 2px solid ;
+    margin: 20px;
+    padding: 30px;
+    background-color: #e4f6fc88;
+    backdrop-filter: blur(3px);
+}
+.bulletpt-list{
+    padding: 20px;
+    align-items: left;
+    text-align: left;
+}
+.dates{
+    height: 100%;
+    margin: 20px 0px;
+    margin-right: 10px;
+    
+}
+.date-container{
+    display: flex;
+    height: 120px; 
+    align-items: center;
+    
+}
+.date-clicked{
+    display: flex;
+    height: 120px;
+    align-items: center;
+}
+.date-clicked h3{
+    color:#ff51a5;
+}
+.sidebar{
+    margin: 20px;
+    width: 15vw;
+    height: 100%;
+    /* background-color: rgba(255, 255, 255, 0.14); */
+    border-left: 3px solid white;
+}
+.exp-det-cont{
+    text-align: left;
+}
+.exp-det-cont h1{
+    font-family: titlefontbold;
+    line-height: 1;
+    margin-bottom: 10px;
+font-size: 30px;
+}
+.exp-title{
+    /* border: 2px solid; */
+    height: 120px;
+    position: relative;
+    left: -3px;
+    border-left: 3px solid #4160b3c6;
+    text-align: left;
+    padding: 20px;
+    }
+.exp-title h2{
+    color: #4160b3c6;
+    font-size: 25px;
+    font-family: namefont;
+    font-weight: 100;
+}
+.exp-title h3{
+    color: #4160b3c6;
+}
+.exp-title:hover{
+    border: 2px solid #1943b7;
+    border-left: 8px solid #1943b7;
+    /* background-color: rgba(124, 178, 203, 0.388); */
+    backdrop-filter: blur(3px);
+    color: #1943b7;
+}
+.exp-title:hover h2{
+    color: #1943b7;
+}
+.exp-title:hover h3{
+    color: #1943b7;
+}
+
+.clicked{
+    /* border: 2px solid; */
+    height: 120px;
+    position: relative;
+    left: -3px;
+    border: 2px solid #ff51a5;
+    border-left: 8px solid #ff51a5;
+    background-color: #e4f6fc88;
+    text-align: left;
+    padding: 20px;
+    }
+    .clicked h2{
+        color: #ff51a5;
+        font-size: 25px;
+        font-family: namefont;
+        font-weight: 100;
+    }
+    .clicked h3{
+        color: #ff51a5;
+    }

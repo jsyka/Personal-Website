@@ -9,6 +9,7 @@ import stars from './assets/stars.png';
 import clouds from './assets/clouds.png';
 import HomePg from "./Pages/HomePg/HomePg";
 import AboutPg from "./Pages/AboutPg/AboutPg";
+import ProjectPg from "./Pages/ProjectsPg/ProjectPg";
 import './App.css';
 
 const App = () => {
@@ -30,7 +31,7 @@ const App = () => {
       <Routes className='contents'>
         <Route path="/Personal-Website" element={<HomePg theme={theme} setTheme={setTheme} />} />
         <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
+        <Route path="/projects" element={<ProjectPg />} />
         <Route path="/resume" element={<Resume />} />
       </Routes>
 
