@@ -38,17 +38,17 @@ const Navbar = ({ theme, setTheme }) => {
             </Link>
           </li>
           <li>
-            <Link onClick={toggle_menu} to="/about" className="ham-text">
+            <Link onClick={toggle_menu} to="/Personal-Website/about" className="ham-text">
               about
             </Link>
           </li>
           <li>
-            <Link onClick={toggle_menu} to="projects" className="ham-text">
+            <Link onClick={toggle_menu} to="/Personal-Website/projects" className="ham-text">
               projects
             </Link>
           </li>
           <li>
-            <Link onClick={toggle_menu} to="/resume" className="ham-text">
+            <Link onClick={toggle_menu} to="/Personal-Website/resume" className="ham-text">
               resume
             </Link>
           </li>
@@ -62,17 +62,17 @@ const Navbar = ({ theme, setTheme }) => {
           </Link>
         </li>
         <li>
-          <Link to="/about" className="nav-text">
+          <Link to="/Personal-Website/about" className="nav-text">
             about
           </Link>
         </li>
         <li>
-          <Link to="projects" className="nav-text">
+          <Link to="/Personal-Website/projects" className="nav-text">
             projects
           </Link>
         </li>
         <li>
-          <Link to="/resume" className="nav-text">
+          <Link to="/Personal-Website/resume" className="nav-text">
             resume
           </Link>
         </li>

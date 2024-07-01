@@ -23,6 +23,11 @@
     box-shadow: 0 4px 8px rgba(72, 40, 40, 0.2);
     backdrop-filter: blur(3px);
 }
+.dark .exp-details{
+    background-color: #0a204f8f;
+    border: 2px solid pink;
+}
+
 .bulletpt-list{
     padding: 20px;
     align-items: left;
@@ -34,12 +39,20 @@
     margin-right: 10px;
     
 }
+
 .date-container{
     display: flex;
     height: 120px; 
     align-items: center;
-    
+
 }
+.dark .date-container h3{
+    color:#a7d2f4;
+}
+.date-container h3{
+    font-size: 14px;
+}
+
 .date-clicked{
     display: flex;
     height: 120px;
@@ -47,6 +60,10 @@
 }
 .date-clicked h3{
     color:#ff51a5;
+    font-size: 14px;
+}
+.dark .date-clicked h3{
+    color: pink;
 }
 .sidebar{
     margin: 20px;
@@ -64,8 +81,15 @@
     font-family: titlefontbold;
     line-height: 1;
     margin-bottom: 10px;
-font-size: 30px;
+font-size: 20px;
 }
+.exp-det-cont h2{
+    font-size: 18px;
+}
+.exp-det-cont h3{
+    font-size: 15px;
+}
+
 .exp-title{
     /* border: 2px solid; */
     height: 120px;
@@ -77,7 +101,7 @@ font-size: 30px;
     }
 .exp-title h2{
     color: #4160b3c6;
-    font-size: 25px;
+    font-size: 18px;
     font-family: namefont;
     font-weight: 100;
 }
@@ -97,7 +121,23 @@ font-size: 30px;
 .exp-title:hover h3{
     color: #1943b7;
 }
-
+.dark .exp-title h2{
+    color: rgba(179, 222, 255, 0.921);
+}
+.dark .exp-title h3{
+    color: rgba(175, 220, 255, 0.921);
+}
+.dark .exp-title:hover{
+    border: 2px solid white;
+    border-left: 8px solid white;
+    /* background-color: rgba(124, 178, 203, 0.388); */
+}
+.dark .exp-title:hover h2{
+    color: white;
+}
+.dark .exp-title:hover h3{
+    color: white;
+}
 .clicked{
     /* border: 2px solid; */
     height: 120px;
@@ -111,14 +151,25 @@ font-size: 30px;
     }
     .clicked h2{
         color: #ff51a5;
-        font-size: 25px;
+        font-size: 18px;
         font-family: namefont;
         font-weight: 100;
     }
     .clicked h3{
         color: #ff51a5;
     }
-
+.dark .clicked{
+    background-color: rgba(12, 32, 81, 0);
+}
+    .dark .clicked h2{
+        color:pink;
+        font-size: 18px;
+        font-family: namefont;
+        font-weight: 100;
+    }
+    .dark .clicked h3{
+        color: white;
+    }
 .proj-container{
     height: 100%;
     width: 97%;
@@ -148,6 +199,12 @@ font-size: 30px;
 .proj-card h3{
     color: rgb(116, 104, 86);
 }
+.dark .proj-card h1{
+    color: rgb(122, 160, 83);
+}
+.dark .proj-card h3{
+    color: rgb(116, 104, 86);
+}
 .proj-img{
     width: 350px;
     height: 200px;
@@ -160,4 +217,20 @@ font-size: 30px;
 .proj-blurb{
     margin: 20px;
 
+}
+@media screen and (max-width: 800px) {
+    .date-container{
+        width:90px;
+    }
+    .date-clicked{
+        width: 90px;
+    }
+
+    .exp-det-cont{
+        width: 350px;
+    }
+    .exp-details{
+        width: 400px;
+    }
+    
 }

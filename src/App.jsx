@@ -30,9 +30,9 @@ const App = () => {
       <Navbar theme={theme} setTheme={setTheme} />
       <Routes className='contents'>
         <Route path="/Personal-Website" element={<HomePg theme={theme} setTheme={setTheme} />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<ProjectPg />} />
-        <Route path="/resume" element={<Resume />} />
+        <Route path="/Personal-Website/about" element={<AboutPg />} />
+        <Route path="/Personal-Website/projects" element={<ProjectPg />} />
+        <Route path="/Personal-Website/resume" element={<Resume />} />
       </Routes>
 
     </div>
