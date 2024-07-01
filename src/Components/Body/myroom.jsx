@@ -103,7 +103,7 @@ const MyRoom = ({ theme }) => {
           alt=""
           className="roomimg"
         />
-        <Link to="/projects">
+        <Link to="/Personal-Website/projects">
           <img
             src={theme == "light" ? postersDay : postersNight}
             onMouseEnter={handlePostersMouseEnter}
@@ -112,7 +112,7 @@ const MyRoom = ({ theme }) => {
             className={postersIsHovered ? "posters-hovered" : "posters"}
           />
         </Link>
-        <Link to="/about">
+        <Link to="/Personal-Website/about">
           <img
             src={
               theme === "light" && bedIsHovered && shadeIsClicked
@@ -168,7 +168,7 @@ const MyRoom = ({ theme }) => {
           onClick={toggleShade}
           className="shade"
         />
-        <Link to="/resume">
+        <Link to="/Personal-Website/resume">
           <img
             src={
               theme === "light" && PrinterIsHovered

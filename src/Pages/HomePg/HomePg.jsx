@@ -9,6 +9,14 @@ import devpost from "../../assets/devPost.png";
 import devpostLight from '../../assets/devPost-white.png';
 import MyRoom from "../../Components/Body/myroom";
 import profilePhoto from '../../assets/profilephoto.jpg';
+import profile from "../../assets/photo2.jpg";
+import html from "../../assets/html.png";
+import css from "../../assets/css.png";
+import js from "../../assets/js.png";
+import react from "../../assets/react.png";
+import cplusplus from "../../assets/c++.png";
+import python from "../../assets/python.png";
+import avatar from "../../assets/avatar.png";
 
 const HomePg = ({ theme }) => {
   return (
@@ -36,6 +44,28 @@ const HomePg = ({ theme }) => {
               <img className="link-icon" src={theme == 'light' ? devpost : devpostLight} />
             </Link>
           </div>
+          <div className="abt-mid">
+          <img src={avatar} className="avatar"></img>
+          <div className="stats-container">
+            <h2 className="">HP:</h2>
+            <div className="exp-bar">
+              <div className="hp-filled">.</div>
+            </div>
+            <h2 className="">EXP: level 19</h2>
+            <div className="exp-bar">
+              <div className="exp-filled">.</div>
+            </div>
+            <h2 className="abilities">ABILITIES</h2>
+            <div className="ability-cont">
+              <img className="lang" src={html} />
+              <img className="lang" src={css} />
+              <img className="lang" src={js} />
+              <img className="lang" src={react} />
+              <img className="lang" src={cplusplus} />
+              <img className="lang" src={python} />
+            </div>
+          </div>
+        </div>
         </div>
       </div>
     </>
