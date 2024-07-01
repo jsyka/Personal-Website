@@ -48,43 +48,5 @@
     align-items: center;
     justify-content: center;
 }
-/* .avatar{
-    box-shadow: 0 4px 8px rgba(72, 40, 40, 0.2); 
-} */
 
-
-.stats-container{
-    margin-top: 20px;
-    max-width: 400px;
-    margin: 20px;
-}
-.ability-cont{
-    height: 100%;
-    border: 2px solid;
-    border-radius: 12px;
-    padding: 14.3px;
-}
-
-.exp-bar{
-    /* border: 2px solid; */
-    border-radius: 12px;
-    border-color: #1943b7;
-}
-
-.hp-filled{
-    width: 300px;
-    background-color: #1943b7;
-    border-radius: 12px;
-}
-
-.filled-exp{
-    width: 70px;
-    background-color: #1943b7;
-    border-radius: 12px;
-}
-
-.lang{
-    height:70px;
-    padding-right: 20px;
-}
 

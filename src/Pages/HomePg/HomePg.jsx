@@ -44,7 +44,7 @@ const HomePg = ({ theme }) => {
               <img className="link-icon" src={theme == 'light' ? devpost : devpostLight} />
             </Link>
           </div>
-          <div className="abt-mid">
+          <div className="home-mid">
           <img src={avatar} className="avatar"></img>
           <div className="stats-container">
             <h2 className="">HP:</h2>
