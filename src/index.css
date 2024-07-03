@@ -46,3 +46,20 @@
   font-family: TitleFontBold;
   src: url("C:\Users\jessi\Documents\im restarting wtf\Personal-Website\src\assets\Fonts\typewcond_bold.otf");
 }
+
+@font-face {
+  font-family: rubik;
+  src: url(./assets/Fonts/Rubik.ttf);
+}
+@font-face {
+  font-family: nanumgothic;
+  src: url(./assets/Fonts/nanumgothic.ttf);
+}
+@font-face {
+  font-family: ubuntu;
+  src: url(./assets/Fonts/ubuntumono.ttf);
+}
+h3{
+  font-family: ubuntu;
+  line-height: 1.2;
+}

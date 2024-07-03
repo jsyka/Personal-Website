@@ -3,6 +3,7 @@
     align-items: center;
     text-align: center;
     justify-content: center;
+    animation: fade-up 0.5s;
 }
 .exp-container{
     height: 100%;
@@ -32,6 +33,10 @@
     padding: 20px;
     align-items: left;
     text-align: left;
+}
+.bulletpt-list h3{
+    line-height: 1.2;
+margin-bottom: 10px;
 }
 .dates{
     height: 100%;

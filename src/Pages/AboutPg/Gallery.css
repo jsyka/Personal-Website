@@ -1,0 +1,27 @@
+.gallery{
+    /* display: block; */
+
+    margin: 50px;
+    width: auto;
+    height: auto;
+    background-color: white;
+    padding: 50px;
+}
+.what{
+    display: flex;
+}
+.photo-v{
+    width: 15vw;
+    margin: 10px;
+    object-fit: cover;
+}
+
+.photorow1{
+    width: auto;
+    display: flex;
+}
+
+.photorow2{
+    width: auto;
+    display: flex;
+}

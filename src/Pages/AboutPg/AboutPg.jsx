@@ -1,16 +1,19 @@
 import React from "react";
 import "./AboutPg.css";
 import profile from "../../assets/photo2.jpg";
-import star from './About-assets/star.png';
-import heart from './About-assets/heart.png';
-import sparkle from './About-assets/sparkle.png';
-import planet from './About-assets/planet.png';
+import star from "./About-assets/star.png";
+import heart from "./About-assets/heart.png";
+import sparkle from "./About-assets/sparkle.png";
+import planet from "./About-assets/planet.png";
 // import window from './About-assets/desktop.png';
+
+import Gallery from "./Gallery";
+import ArtGallery from "./ArtGallery";
 
 const AboutPg = ({ theme }) => {
   return (
     <>
-    <img src={star} className="star"/>
+      <img src={star} className="star" />
       <div className={`container-A ${theme}`}>
         <div className="top-A">
           <div className="photo-container">
@@ -30,8 +33,13 @@ const AboutPg = ({ theme }) => {
           </div>
         </div>
         <div className="abt-mid">
-          <h1>Outside of school and work I..</h1>
-<img src={heart} className="heart"/>
+          <h1>Outside of school and work...</h1>
+          <div className="abt-mid-cont">
+          <Gallery/>
+          </div>
+          <div className="abt-mid-cont">
+          <ArtGallery/>
+          </div>
         </div>
       </div>
     </>

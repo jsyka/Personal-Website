@@ -44,11 +44,21 @@
 
 .abt-mid{
     position: relative;
-    display: flex;
     /* border: 2px solid; */
     padding: 50px;
     align-items: center;
     justify-content: center;
+    text-align: center;
+}
+
+.abt-mid h1{
+    justify-self: center;
+}
+.abt-mid-cont{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
 }
 
 /* Doodles */
@@ -65,3 +75,4 @@
 .heart:hover{
     transform: rotate(15deg);
 }
+

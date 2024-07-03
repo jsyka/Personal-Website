@@ -92,8 +92,10 @@ const ProjectPg = () => {
               <h3>May 2024 - Ongoing</h3>
 
               <ul className="bulletpt-list">
-                <h3>➼ this page is a work in progress</h3>
-                <h3>➼ WIP</h3>
+                <h3>‣ Researched and provided recommendations toward an overal AI implementation strategy for Statis Ring's wearable technology</h3>
+                <h3>‣ Implemented natural language processing in a AI smart assistant prototype</h3>
+                <h3>‣ Created and managed resources and databases in Microsoft Azure</h3>
+                <h3>‣ Completed AZ-900 and AI-900 Microsoft certifications</h3>
               </ul>
             </div>
           ) : (
@@ -106,8 +108,9 @@ const ProjectPg = () => {
               <h3>Jun 2021 - Jun 2023</h3>
 
               <ul className="bulletpt-list">
-                <h3>➼ this page is a work in progress</h3>
-                <h3>➼ WIP</h3>
+                <h3>‣ Designed logos, graphics, and illustrations for merchandise to foster unity within the organisation</h3>
+                <h3>‣ Produced visually impactful promotion material to enhance the visibility and recognition of the organisation,
+                resulting in 75% increased community engagement in chapter initiatives</h3>
               </ul>
             </div>
           ) : (
@@ -120,8 +123,11 @@ const ProjectPg = () => {
               <h3>Jul 2020 - Ongoing</h3>
 
               <ul className="bulletpt-list">
-                <h3>➼ this page is a work in progress</h3>
-                <h3>➼ WIP</h3>
+                <h3>‣ Generated over $1000 in commissions by creang visually capvang book covers and digital painngs for various
+                novels and publicaons</h3>
+                <h3>‣ Managed a social media network of over 13 thousand followers (@cjymkyn on Instagram)</h3>
+                <h3>‣ Developed digital artwork ulised as exclusive assets within an NFT project to exercise digital proficiency and
+                entrepreneurial spirit</h3>
               </ul>
             </div>
           ) : (
