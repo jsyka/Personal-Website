@@ -7,8 +7,13 @@
     width: 30vw;
     height: 30vh;
     z-index: 0;
+    animation: fade-up 0.5s;
 }
+.room{
+  position: absolute;
+  animation: fade-up 1.2s;
 
+}
 .instructions{
     margin: none;
     border: 2px solid;

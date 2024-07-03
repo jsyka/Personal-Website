@@ -39,7 +39,7 @@ const Navbar = ({ theme, setTheme }) => {
           </li>
           <li>
             <Link onClick={toggle_menu} to="/Personal-Website/about" className="ham-text">
-              about
+              <p>about</p>
             </Link>
           </li>
           <li>
@@ -49,7 +49,7 @@ const Navbar = ({ theme, setTheme }) => {
           </li>
           <li>
             <Link onClick={toggle_menu} to="/Personal-Website/resume" className="ham-text">
-              resume
+              <p>resume</p>
             </Link>
           </li>
         </ul>
@@ -76,6 +76,7 @@ const Navbar = ({ theme, setTheme }) => {
             resume
           </Link>
         </li>
+        
       </ul>
       {/* <div className="search-box">
         <input type="text" placeholder="search" />

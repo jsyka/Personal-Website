@@ -8,7 +8,8 @@
     transition: 0.5s;
     z-index: 9999;
     opacity: 1;
-    position: absolute;
+    position: fixed;
+    backdrop-filter: blur(5px);
 }
 .hamburger{
     opacity: 0;
@@ -44,7 +45,7 @@
 }
 .ham-text:hover{
     color:#ff96cc;
-    text-decoration: underline;
+    text-decoration: none;
     /* animation: fade-up 0.2s; */
 }
 .ham-links{
@@ -102,10 +103,19 @@ ul li{
 
 .nav-text{
     color:#1943b7;
+    text-decoration: none;
+
 }
 .nav-text:hover{
-    color:#fff;
+    color:#ff96cc;
+   text-decoration: underline;
 }
+.nav-text p:hover{
+    animation: none;
+    transition: none;
+}
+
+
 .dark .nav-text{
     color: #fff;
 }
@@ -131,5 +141,6 @@ ul li{
 }
 .closed{
     display: none;
-    background-color: #1943b7;
 }
+
+

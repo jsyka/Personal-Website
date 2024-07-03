@@ -1,17 +1,16 @@
 import React from "react";
 import "./AboutPg.css";
 import profile from "../../assets/photo2.jpg";
-import html from "../../assets/html.png";
-import css from "../../assets/css.png";
-import js from "../../assets/js.png";
-import react from "../../assets/react.png";
-import cplusplus from "../../assets/c++.png";
-import python from "../../assets/python.png";
-import avatar from "../../assets/avatar.png";
+import star from './About-assets/star.png';
+import heart from './About-assets/heart.png';
+import sparkle from './About-assets/sparkle.png';
+import planet from './About-assets/planet.png';
+// import window from './About-assets/desktop.png';
 
 const AboutPg = ({ theme }) => {
   return (
     <>
+    <img src={star} className="star"/>
       <div className={`container-A ${theme}`}>
         <div className="top-A">
           <div className="photo-container">
@@ -32,7 +31,7 @@ const AboutPg = ({ theme }) => {
         </div>
         <div className="abt-mid">
           <h1>Outside of school and work I..</h1>
-          
+<img src={heart} className="heart"/>
         </div>
       </div>
     </>

@@ -1,3 +1,7 @@
+.container-A{
+    animation: fade-up 0.5s;
+}
+
 .abt-photo{
     width: 400px;
     border-radius: 40px;
@@ -8,9 +12,7 @@
     box-shadow: 0 4px 8px rgba(72, 40, 40, 0.2);
 }
 
-.photo-container{ 
-    /* border: 2px solid; */
-}
+
 
 .top-A{
     padding: 50px;
@@ -49,4 +51,17 @@
     justify-content: center;
 }
 
+/* Doodles */
+.star{
+    position: absolute;
+  
+    top: 20%;
+    left: 80%;
+}
+.star:hover{
+    transform: rotate(15deg);
+}
 
+.heart:hover{
+    transform: rotate(15deg);
+}
