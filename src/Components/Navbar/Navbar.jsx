@@ -7,7 +7,7 @@ import logo_dark from "../../assets/logo-white.png";
 import toggle_light from "../../assets/night.png";
 import toggle_dark from "../../assets/day.png";
 import hamburger from "../../assets/hamburger.png";
-import hamburger_white from '../../assets/hamburger-light.png'
+import hamburger_white from "../../assets/hamburger-light.png";
 
 const Navbar = ({ theme, setTheme }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,38 +23,58 @@ const Navbar = ({ theme, setTheme }) => {
   return (
     <nav className="navbar">
       <Link to="/Personal-Website" className="ham-text">
-      <img
-        src={theme === "light" ? logo_light : logo_dark}
-        alt=""
-        className="logo"
-      />
-            </Link>
-      
+        <img
+          src={theme === "light" ? logo_light : logo_dark}
+          alt=""
+          className="logo"
+        />
+      </Link>
+
       <div className={isOpen ? "ham-open" : "closed"}>
         <ul className="ham-links">
           <li>
-            <Link onClick={toggle_menu} to="/Personal-Website" className="ham-text">
+            <Link
+              onClick={toggle_menu}
+              to="/Personal-Website"
+              className="ham-text"
+            >
               home
             </Link>
           </li>
           <li>
-            <Link onClick={toggle_menu} to="/Personal-Website/about" className="ham-text">
+            <Link
+              onClick={toggle_menu}
+              to="/Personal-Website/about"
+              className="ham-text"
+            >
               <p>about</p>
             </Link>
           </li>
           <li>
-            <Link onClick={toggle_menu} to="/Personal-Website/projects" className="ham-text">
-              projects
+            <Link
+              onClick={toggle_menu}
+              to="/Personal-Website/work"
+              className="ham-text"
+            >
+              work
             </Link>
           </li>
           <li>
-            <Link onClick={toggle_menu} to="/Personal-Website/resume" className="ham-text">
+            <Link
+              onClick={toggle_menu}
+              to="/Personal-Website/resume"
+              className="ham-text"
+            >
               <p>resume</p>
             </Link>
           </li>
         </ul>
       </div>
-      <img className="hamburger" src={isOpen || theme =='dark'? hamburger_white:hamburger} onClick={toggle_menu} />
+      <img
+        className="hamburger"
+        src={isOpen || theme == "dark" ? hamburger_white : hamburger}
+        onClick={toggle_menu}
+      />
       <ul className={"topbar"}>
         <li>
           <Link to="/Personal-Website" className="nav-text">
@@ -67,16 +87,15 @@ const Navbar = ({ theme, setTheme }) => {
           </Link>
         </li>
         <li>
-          <Link to="/Personal-Website/projects" className="nav-text">
-            projects
+          <Link to="/Personal-Website/work" className="nav-text">
+            work
           </Link>
         </li>
         <li>
-          <Link to="/Personal-Website/resume" className="nav-text">
+          <a href="public\Jessica Jiao Resume - Software.pdf" download>
             resume
-          </Link>
+          </a>
         </li>
-        
       </ul>
       {/* <div className="search-box">
         <input type="text" placeholder="search" />

@@ -31,7 +31,7 @@ const App = () => {
       <Routes className='contents'>
         <Route path="/Personal-Website" element={<HomePg theme={theme} setTheme={setTheme} />} />
         <Route path="/Personal-Website/about" element={<AboutPg />} />
-        <Route path="/Personal-Website/projects" element={<ProjectPg />} />
+        <Route path="/Personal-Website/work" element={<ProjectPg />} />
         <Route path="/Personal-Website/resume" element={<Resume />} />
       </Routes>
 

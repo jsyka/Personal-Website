@@ -134,6 +134,21 @@ ul li{
 .dark .nav-text:hover{
     color:#a5d1ff;
 }
+
+a{
+    text-decoration: none;
+    color:#1943b7;
+}
+a:hover{
+    color:#ff96cc;
+    text-decoration: underline;
+}
+.dark a{
+    color: white;
+}
+.dark a:hover{
+    color: #a5d1ff;
+}
 @media screen and (max-width: 1000px){
     .logo{ 
         width: 100px;
