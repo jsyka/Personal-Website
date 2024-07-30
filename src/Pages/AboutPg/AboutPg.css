@@ -1,10 +1,18 @@
 .container-A{
     animation: fade-up 0.5s;
+    background-size: cover;
+  background-attachment: fixed;
+  background-position: fixed;
+    background-image: linear-gradient(#b7d6ed, #b7d6ed, #b7d6ed, #c5daee, #ccd7ea, #e9dbea, #f5d6d6);
+}
+
+.dark .container-A{
+    background-image: linear-gradient(#18336e, #18336e, #1c4676, #21547a, #2a6e89);
 }
 
 .abt-photo{
     width: 400px;
-    border-radius: 40px;
+    border-radius: 20px;
     z-index: 2;
     position: relative;
     height: 600px;

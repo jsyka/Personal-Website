@@ -103,7 +103,7 @@ const MyRoom = ({ theme }) => {
           alt=""
           className="roomimg"
         />
-        <Link to="/Personal-Website/projects">
+        <Link to="/Personal-Website/work">
           <img
             src={theme == "light" ? postersDay : postersNight}
             onMouseEnter={handlePostersMouseEnter}

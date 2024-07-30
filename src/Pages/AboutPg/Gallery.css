@@ -6,6 +6,7 @@
     height: auto;
     background-color: white;
     padding: 50px;
+    border-radius: 20px;
 }
 .what{
     display: flex;
@@ -14,6 +15,8 @@
     width: 15vw;
     margin: 10px;
     object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(72, 40, 40, 0.2);
 }
 
 .photorow1{
@@ -24,4 +27,40 @@
 .photorow2{
     width: auto;
     display: flex;
+}
+
+.gallery-container{
+    max-width: 1224px;
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.gallery-container .title{
+     margin-bottom: 2rem;
+}
+
+.gallery-container {
+    display: flex;
+    gap: 20px;
+}
+
+.gallery-container .column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+
+@media (max-width: 768px){
+    .gallery-container{
+        flex-direction: column;
+    }
+    
 }

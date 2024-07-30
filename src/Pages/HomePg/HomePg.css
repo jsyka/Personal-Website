@@ -102,7 +102,7 @@
 
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
 
 .container-h{
   height: 1900px;
@@ -129,17 +129,27 @@ color:#1943b7;
 }
 
 }
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
+  .room{
+    position: absolute;
+    top: 25vh;
+    left: -3vw;
+  }
+}
+/* @media screen and (max-width: 1000px) {
     .text-container{
         top: 70vw;
         left: 15vw;
         align-items: center;
         width: 500px;
     }
-}
+    .room{
+      position: absolute;
+      top: 6vh;
+    }
+} */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
 
 .room{
   position: absolute;

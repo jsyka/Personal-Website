@@ -4,6 +4,17 @@
     text-align: center;
     justify-content: center;
     animation: fade-up 0.5s;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: fixed;
+    background-image: linear-gradient(#b7d6ed, #b7d6ed, #b7d6ed, #c5daee, #ccd7ea, #e9dbea, #f5d6d6);
+
+}
+
+.dark .project-page{
+    background-image: linear-gradient(#18336e, #18336e, #1c4676, #21547a, #2a6e89);
+    
+    
 }
 .exp-container{
     height: 100%;
@@ -25,7 +36,7 @@
     backdrop-filter: blur(3px);
 }
 .dark .exp-details{
-    background-color: #0a204f8f;
+    background-color: rgba(159, 73, 181, 0.405);;
     border: 2px solid pink;
 }
 
@@ -70,11 +81,17 @@ margin-bottom: 10px;
 .dark .date-clicked h3{
     color: pink;
 }
+.datessidebar{
+    display: flex;
+
+    height: 100%;
+}
 .sidebar{
     margin: 20px;
     width: 15vw;
     height: 100%;
     /* background-color: rgba(255, 255, 255, 0.14); */
+    /* border: 2px solid green; */
     border-left: 3px solid white;
 
 }
@@ -116,6 +133,8 @@ font-size: 20px;
 .exp-title:hover{
     border: 2px solid #1943b7;
     border-left: 8px solid #1943b7;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
     /* background-color: rgba(124, 178, 203, 0.388); */
     backdrop-filter: blur(3px);
     color: #1943b7;
@@ -145,6 +164,8 @@ font-size: 20px;
 }
 .clicked{
     /* border: 2px solid; */
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
     height: 120px;
     position: relative;
     left: -3px;
@@ -164,7 +185,7 @@ font-size: 20px;
         color: #ff51a5;
     }
 .dark .clicked{
-    background-color: rgba(12, 32, 81, 0);
+    background-color: rgba(159, 73, 181, 0.405);
 }
     .dark .clicked h2{
         color:pink;
@@ -223,19 +244,55 @@ font-size: 20px;
     margin: 20px;
 
 }
-@media screen and (max-width: 800px) {
+
+
+
+@media screen and (max-width: 1000px) {
     .date-container{
-        width:90px;
+        margin: 0px;
+        width:150;
     }
     .date-clicked{
-        width: 90px;
+        width: 150px;
     }
 
     .exp-det-cont{
-        width: 350px;
+        width: 100%;
     }
     .exp-details{
-        width: 400px;
+        width: 80%;
     }
     
+    .proj-container{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .exp-container{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .datessidebar{
+        display: flex;
+        padding: 0;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .clicked{
+        width: 250px;
+    }
+    .exp-title{
+        width: 250px
+    }
+
+    .proj-card{
+        margin-bottom: 20px;
+        overflow: hidden;
+        height: 300px;
+    }
+
 }

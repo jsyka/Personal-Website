@@ -32,7 +32,7 @@ const App = () => {
         <Route path="/Personal-Website" element={<HomePg theme={theme} setTheme={setTheme} />} />
         <Route path="/Personal-Website/about" element={<AboutPg />} />
         <Route path="/Personal-Website/work" element={<ProjectPg />} />
-        <Route path="/Personal-Website/resume" element={<Resume />} />
+        {/* <Route path="/Personal-Website/resume" element={<Resume />} /> */}
       </Routes>
 
     </div>

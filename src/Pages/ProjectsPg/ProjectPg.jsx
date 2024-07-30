@@ -7,7 +7,7 @@ const ProjectPg = () => {
   const [weaClicked, setWeaClicked] = useState(true);
   const [jackClicked, setJackClicked] = useState(false);
   const [freelanceClicked, setFreelanceClicked] = useState(false);
-  const [zqClicked, setZqClicked] = useState(true);
+  const [zqClicked, setZqClicked] = useState(false);
 
   const handleZqClicked = () => {
     setWeaClicked(false);
@@ -40,10 +40,11 @@ const ProjectPg = () => {
     <div className="project-page">
       <h1>Experience</h1>
       <div className="exp-container">
+        <div className="datessidebar">
         <div className="dates">
-          {/* <div className={zqClicked ? "date-clicked" : "date-container"}>
+          <div className={zqClicked ? "date-clicked" : "date-container"}>
             <h3>JUL 2024 - Ongoing</h3>
-          </div> */}
+          </div>
           <div className={weaClicked ? "date-clicked" : "date-container"}>
             <h3>MAY 2024 - Ongoing</h3>
           </div>
@@ -55,13 +56,13 @@ const ProjectPg = () => {
           </div>
         </div>
         <div className="sidebar">
-          {/* <div
+          <div
             className={zqClicked ? "clicked" : "exp-title"}
             onClick={handleZqClicked}
           >
-            <h2>ZhongQu Beijing Technology</h2>
-            <h3>Project Intern</h3>
-          </div> */}
+            <h2>ZhongQu (Beijing) Technology  </h2>
+            <h3>Front-End Development Intern</h3>
+          </div>
           <div
             className={weaClicked ? "clicked" : "exp-title"}
             onClick={handleWeaClicked}
@@ -84,11 +85,27 @@ const ProjectPg = () => {
             <h3>Digital Media Artist</h3>
           </div>
         </div>
+        </div>
         <div className="exp-details">
+        {zqClicked ? (
+            <div className="exp-det-cont">
+              <h1>Front-End Development Intern</h1>
+              <h2>ZhongQu (Beijing) Technology Co. Ltd.</h2>
+              <h3>JUL 2024 - Ongoing</h3>
+
+              <ul className="bulletpt-list">
+                <h3>‣ Played a significant role in expanding the company’s presence to the international market by creating an eCommerce website with Shopify </h3>
+                <h3>‣ Self-learned Shopify’s Liquid language to meet customize and develop the website theme</h3>
+                <h3>‣ Helped translate documents and sheets from Chinese to English to be used for company software</h3>
+              </ul>
+            </div>
+          ) : (
+            ""
+          )}
           {weaClicked ? (
             <div className="exp-det-cont">
               <h1>Project: AI Integration with Wearable Tech</h1>
-              <h2>Statis Ring with WEA @ UW</h2>
+              <h2>Statis Ring with WEA @UW</h2>
               <h3>May 2024 - Ongoing</h3>
 
               <ul className="bulletpt-list">
@@ -140,23 +157,21 @@ const ProjectPg = () => {
         <div className="proj-card">
             <img className="proj-img" src={Bluem}></img>
           <h1>Bluem</h1>
-          <h3 className="proj-blurb"> Your Personal Growth Companion! 🌱  🌸 Journal to grow your virtual
-        garden and unlock beautiful flowers. 📓 Reflect with AI-driven,
-        personalized prompts. 💪 Discard negativity with the "Negativity Pebble"
-        feature.</h3>
+          <h3 className="proj-blurb"> 🪴 A gamified journaling app allowing users to cultivate a virtual garden. <br/><br/>
+Integrated with ChatGPT API for personalised prompts, to implement AI-driven user interaction
+</h3>
         </div>
         <div className="proj-card">
             <img className="proj-img" src={Bite}></img>
           <h1>BiteGnite</h1>
-          <h3 className="proj-blurb">🪲 Your Bug Bite Companion! 📸 Upload bug bite images for AI analysis.
-        🔍 Identify the bug and get care advice. 🌿 Learn about the insects and
-        their ecological roles. 💡 Promote awareness and appreciation for our
-        environment.</h3>
+          <h3 className="proj-blurb">🪲 An interactive and educational web app with an image-based bug bite identifier. <br/> <br/>
+Features an AI classification model developed with Python and Scikit Learn
+</h3>
         </div>
         <div className="proj-card">
             <img className="proj-img" src={Banana}></img>
           <h1>BananaBox</h1>
-          <h3>blah</h3>
+          <h3>coming soon...</h3>
         </div>
       </div>
     </div>

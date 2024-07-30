@@ -27,7 +27,7 @@ const AboutPg = ({ theme }) => {
               Mechatronics Engineering at the Unviersity of Waterloo. I'm
               currently really into AI/Machine Learning as well as Website
               Development. Thank you for taking the time to visit my personal
-              website! I hope you it's been a super fun experience and you've
+              website! I hope it's been a super fun experience and you've
               gotten to learn a little more about me.
             </h3>
           </div>

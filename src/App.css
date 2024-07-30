@@ -17,6 +17,7 @@ body {
   animation: fade-in 0.5s;
   background-size: cover;
   background-attachment: fixed;
+  background-position: fixed;
   background-image: linear-gradient(#b7d6ed, #b7d6ed, #b7d6ed, #c5daee, #ccd7ea, #e9dbea, #f5d6d6);
   min-height: 100vh;
   transition: background-image 0.5s ease, color 0.5s ease;

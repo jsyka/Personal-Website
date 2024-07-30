@@ -47,7 +47,7 @@ const Navbar = ({ theme, setTheme }) => {
               to="/Personal-Website/about"
               className="ham-text"
             >
-              <p>about</p>
+              about
             </Link>
           </li>
           <li>
@@ -60,13 +60,13 @@ const Navbar = ({ theme, setTheme }) => {
             </Link>
           </li>
           <li>
-            <Link
-              onClick={toggle_menu}
-              to="/Personal-Website/resume"
+            <a
               className="ham-text"
+              href="public\Jessica Jiao Resume - Software.pdf"
+              download
             >
-              <p>resume</p>
-            </Link>
+              resume
+            </a>
           </li>
         </ul>
       </div>
