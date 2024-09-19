@@ -43,10 +43,10 @@ const ProjectPg = () => {
         <div className="datessidebar">
         <div className="dates">
           <div className={zqClicked ? "date-clicked" : "date-container"}>
-            <h3>JUL 2024 - Ongoing</h3>
+            <h3>JUL 2024 - Aug 2024</h3>
           </div>
           <div className={weaClicked ? "date-clicked" : "date-container"}>
-            <h3>MAY 2024 - Ongoing</h3>
+            <h3>MAY 2024 - Aug 2024</h3>
           </div>
           <div className={jackClicked ? "date-clicked" : "date-container"}>
             <h3>JUN 2021 - JUN 2023</h3>
@@ -60,15 +60,15 @@ const ProjectPg = () => {
             className={zqClicked ? "clicked" : "exp-title"}
             onClick={handleZqClicked}
           >
-            <h2>ZhongQu (Beijing) Technology  </h2>
-            <h3>Front-End Development Intern</h3>
+            <h2>ZhongQu Technology  </h2>
+            <h3>Web Development Intern</h3>
           </div>
           <div
             className={weaClicked ? "clicked" : "exp-title"}
             onClick={handleWeaClicked}
           >
-            <h2>WE Accelerate</h2>
-            <h3>Project Intern</h3>
+            <h2>Statis Ring</h2>
+            <h3>Project Researcher</h3>
           </div>
           <div
             className={jackClicked ? "clicked" : "exp-title"}
