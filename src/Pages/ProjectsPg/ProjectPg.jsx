@@ -89,14 +89,17 @@ const ProjectPg = () => {
         <div className="exp-details">
         {zqClicked ? (
             <div className="exp-det-cont">
-              <h1>Front-End Development Intern</h1>
-              <h2>ZhongQu (Beijing) Technology Co. Ltd.</h2>
-              <h3>JUL 2024 - Ongoing</h3>
+              <h1>Web Development Intern</h1>
+              <h2>ZhongQu Technology Co. Ltd.</h2>
+              <h3>JUL 2024 - Aug 2024</h3>
 
               <ul className="bulletpt-list">
-                <h3>‣ Played a significant role in expanding the company’s presence to the international market by creating an eCommerce website with Shopify </h3>
-                <h3>‣ Self-learned Shopify’s Liquid language to meet customize and develop the website theme</h3>
-                <h3>‣ Helped translate documents and sheets from Chinese to English to be used for company software</h3>
+                <h3>‣ Led the development of an eCommerce website using Shopify to expand the company’s market presence to
+                international clients, facilitating a 42% increase of pre-launch sign-ups and user interest.</h3>
+                <h3>‣ Independently mastered Shopify’s templating language Liquid to develop the website theme and sections,
+                combined with HTML and CSS.</h3>
+                <h3>‣ Optimized the website to create seamless user experience for diverse international markets in collaboration with the
+                development team.</h3>
               </ul>
             </div>
           ) : (
@@ -104,15 +107,18 @@ const ProjectPg = () => {
           )}
           {weaClicked ? (
             <div className="exp-det-cont">
-              <h1>Project: AI Integration with Wearable Tech</h1>
-              <h2>Statis Ring with WEA @UW</h2>
-              <h3>May 2024 - Ongoing</h3>
+              <h1>Project Researcher </h1>
+              <h2>WEA with Statis Ring @UW </h2>
+              <h3>May 2024 - Aug 2024</h3>
 
               <ul className="bulletpt-list">
-                <h3>‣ Researched and provided recommendations toward an overal AI implementation strategy for Statis Ring's wearable technology</h3>
-                <h3>‣ Implemented natural language processing in a AI smart assistant prototype</h3>
-                <h3>‣ Created and managed resources and databases in Microsoft Azure</h3>
-                <h3>‣ Completed AZ-900 and AI-900 Microsoft certifications</h3>
+                <h3>‣ Developed an AI adoption strategy for the company, resulting in a 24% improvement in alignment with market
+                trends and enhancing strategic planning.</h3>
+                <h3>‣ Conducted research on available technologies and implementation methods, offering insights for achieving specific
+                outcomes requested of the client.</h3>
+                <h3>‣ Presented findings and deliverables at weekly meetings with the CEO to discuss actionable insights.</h3>
+                <h3>‣ Produced a comprehensive project report summarizing strategic recommendations, which were instrumental in
+                shaping the client’s future AI strategy and are expected to drive a 22% improvement in project outcomes.</h3>
               </ul>
             </div>
           ) : (
@@ -126,8 +132,8 @@ const ProjectPg = () => {
 
               <ul className="bulletpt-list">
                 <h3>‣ Designed logos, graphics, and illustrations for merchandise to foster unity within the organisation</h3>
-                <h3>‣ Produced visually impactful promotion material to enhance the visibility and recognition of the organisation,
-                resulting in 75% increased community engagement in chapter initiatives</h3>
+                <h3>‣ Increased community engagement by 74% in chapter initiatives using visually impactful promotional material, to
+                enhance the visibility of the organization.</h3>
               </ul>
             </div>
           ) : (
